@@ -1,18 +1,16 @@
-/* Remove default spacing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Whole page */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
     color: #000000;
 }
 
-/* Introduction section */
+
 .intro {
     min-height: 100vh;
 
@@ -25,7 +23,7 @@ body {
     padding: 40px 20px;
 }
 
-/* Profile picture */
+
 .intro img {
     width: 180px;
     height: 180px;
@@ -37,13 +35,13 @@ body {
     margin-bottom: 25px;
 }
 
-/* Name */
+
 .intro h1 {
     font-size: 42px;
     margin-bottom: 15px;
 }
 
-/* Introduction text */
+
 .introduction {
     max-width: 600px;
     font-size: 18px;
@@ -51,14 +49,14 @@ body {
     margin-bottom: 15px;
 }
 
-/* Career goal / tagline */
+
 .tagline {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-/* Learn More button */
+
 .learn-more {
     display: inline-block;
 
@@ -74,7 +72,46 @@ body {
     font-size: 16px;
 }
 
-/* Button hover */
+
 .learn-more:hover {
     background-color: #2A3B8A;
+}
+/* About Me section */
+.about {
+    min-height: 100vh;
+    padding: 80px 20px;
+
+    background-color: white;
+
+    text-align: center;
+}
+
+/* About heading */
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* About paragraphs */
+.about p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* Subheadings */
+.about h3 {
+    font-size: 24px;
+    margin: 30px 0 15px;
+}
+
+/* Hobbies list */
+.about ul {
+    list-style-position: inside;
+    margin-bottom: 30px;
+
+    font-size: 18px;
+    line-height: 1.8;
 }
