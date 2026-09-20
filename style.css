@@ -1,0 +1,80 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #000000;
+}
+
+/* Introduction section */
+.intro {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Profile picture */
+.intro img {
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    margin-bottom: 25px;
+}
+
+/* Name */
+.intro h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+/* Introduction text */
+.introduction {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Career goal / tagline */
+.tagline {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Learn More button */
+.learn-more {
+    display: inline-block;
+
+    background-color: #010253;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+/* Button hover */
+.learn-more:hover {
+    background-color: #2A3B8A;
+}
