@@ -76,7 +76,7 @@ body {
 .learn-more:hover {
     background-color: #2A3B8A;
 }
-/* About Me section */
+
 .about {
     min-height: 100vh;
     padding: 80px 20px;
@@ -86,13 +86,13 @@ body {
     text-align: center;
 }
 
-/* About heading */
+
 .about h2 {
     font-size: 36px;
     margin-bottom: 30px;
 }
 
-/* About paragraphs */
+
 .about p {
     max-width: 700px;
     margin: 0 auto 30px;
@@ -101,17 +101,73 @@ body {
     line-height: 1.7;
 }
 
-/* Subheadings */
+
 .about h3 {
     font-size: 24px;
     margin: 30px 0 15px;
 }
 
-/* Hobbies list */
+
 .about ul {
     list-style-position: inside;
     margin-bottom: 30px;
 
     font-size: 18px;
     line-height: 1.8;
+}
+
+/* Skills section */
+.skills {
+    min-height: 100vh;
+    padding: 80px 20px;
+
+    background-color: #f4f6f8;
+
+    text-align: center;
+}
+
+/* Skills heading */
+.skills h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Container for all cards */
+.skills-container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* Reusable skill card */
+.skill-card {
+    background-color: white;
+
+    padding: 30px 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.3s ease;
+}
+
+/* Skill name */
+.skill-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Skill description */
+.skill-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Card hover effect */
+.skill-card:hover {
+    transform: translateY(-5px);
 }
