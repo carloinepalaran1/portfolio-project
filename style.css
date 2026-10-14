@@ -720,3 +720,191 @@ body {
         font-size: 14px;
     }
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #010253;
+    padding: 15px 20px;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-brand a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav-links a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 5px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #a9b9ff;
+}
+
+.nav-brand {
+    --x: 0px;
+    --y: 0px;
+}
+
+.nav-links {
+    --x: 0px;
+    --y: 0px;
+}
+
+.nav-home {
+    --x: 0px;
+    --y: 0px;
+}
+
+.nav-about {
+    --x: 0px;
+    --y: 0px;
+}
+
+.nav-skills {
+    --x: 0px;
+    --y: 0px;
+}
+
+.nav-projects {
+    --x: 0px;
+    --y: 0px;
+}
+
+.nav-experience {
+    --x: 0px;
+    --y: 0px;
+}
+
+.nav-contact {
+    --x: 0px;
+    --y: 0px;
+}
+
+.intro,
+.about,
+.skills,
+.projects,
+.education,
+.contact {
+    scroll-margin-top: 90px;
+}
+
+.contact {
+    min-height: 50vh;
+    padding: 80px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-heading {
+    --x: 0px;
+    --y: 0px;
+    margin-bottom: 20px;
+}
+
+.contact-heading h2 {
+    font-size: 36px;
+}
+
+.contact-description {
+    --x: 0px;
+    --y: 0px;
+}
+
+.contact-description p {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .contact-heading h2 {
+        font-size: 30px;
+    }
+
+    .intro,
+    .about,
+    .skills,
+    .projects,
+    .education,
+    .contact {
+        scroll-margin-top: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 12px 10px;
+    }
+
+    .nav-brand a {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        gap: 8px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .contact-heading h2 {
+        font-size: 28px;
+    }
+
+    .contact-description p {
+        font-size: 16px;
+    }
+
+    .intro,
+    .about,
+    .skills,
+    .projects,
+    .education,
+    .contact {
+        scroll-margin-top: 180px;
+    }
+}
