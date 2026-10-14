@@ -367,14 +367,64 @@
 
 </section>
 
+
 <section id="contact" class="contact">
 
     <div class="contact-heading piece">
         <h2>Contact Me</h2>
     </div>
 
-    <div class="contact-description piece">
-        <p>Contact form coming soon.</p>
+    <div class="contact-form-container piece">
+
+        <form class="contact-form"
+              action="mailto:your-email@example.com"
+              method="post"
+              enctype="text/plain">
+
+            <div class="contact-name piece">
+                <label for="name">Full Name</label>
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Enter your full name"
+                       required>
+            </div>
+
+            <div class="contact-email piece">
+                <label for="email">Email Address</label>
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email"
+                       required>
+            </div>
+
+            <div class="contact-subject piece">
+                <label for="subject">Subject</label>
+                <input type="text"
+                       id="subject"
+                       name="subject"
+                       placeholder="Enter subject"
+                       required>
+            </div>
+
+            <div class="contact-message piece">
+                <label for="message">Message</label>
+                <textarea id="message"
+                          name="message"
+                          rows="6"
+                          placeholder="Write your message here"
+                          required></textarea>
+            </div>
+
+            <div class="contact-button piece">
+                <button type="submit" class="send-button">
+                    Send Message
+                </button>
+            </div>
+
+        </form>
+
     </div>
 
 </section>
